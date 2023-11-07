@@ -38,7 +38,7 @@ const DetailsProfile = ({ userRepos }: Props) => {
                   {repo.license !== null ? (
                     <>
                       <img
-                        src='/src/assets/profiles/Chield_alt.svg'
+                        src='./profiles/Chield_alt.svg'
                         alt={repo.license.name}
                         className=''
                       />
@@ -50,7 +50,7 @@ const DetailsProfile = ({ userRepos }: Props) => {
                 </div>
                 <div className='flex gap-2 items-center'>
                   <img
-                    src='/src/assets/profiles/Nesting.svg'
+                    src='./profiles/Nesting.svg'
                     alt='Forks'
                     className=''
                   />
@@ -58,7 +58,7 @@ const DetailsProfile = ({ userRepos }: Props) => {
                 </div>
                 <div className='flex gap-2 items-center'>
                   <img
-                    src='/src/assets/profiles/Star.svg'
+                    src='./profiles/Star.svg'
                     alt='stars gazers count'
                     className=''
                   />

@@ -5,7 +5,7 @@ interface Props {
 }
 const FormSearch = ({ handleChange, handleSubmit, search }: Props) => {
   return (
-    <section className="bg-[url('/src//assets/profiles/hero-image-github-profile.png')] flex justify-center w-full bg-cover text-lg  md:h-[300px] h-40 p-5">
+    <section className="bg-[url('./profiles/hero-image-github-profile.png')] flex justify-center w-full bg-cover text-lg  md:h-[300px] h-40 p-5">
       <form
         action=''
         onSubmit={handleSubmit}
@@ -19,7 +19,7 @@ const FormSearch = ({ handleChange, handleSubmit, search }: Props) => {
             value={search}
           />
           <img
-            src='/src/assets/profiles/Search.svg'
+            src='./profiles/Search.svg'
             alt='Search'
             className='absolute md:top-4 top-2 left-4  -translate-x-1/2'
           />
